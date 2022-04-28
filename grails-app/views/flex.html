@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+        .box {
+            display: flex;
+            flex-direction: row;
+            /*flex-wrap: wrap;*/
+            height: 200px;
+        }
+
+        .border {
+            border: grey dashed;
+            /*border: 5px;*/
+            margin: 2px;
+
+        }
+
+        .child {
+            /*width: 40%;*/
+            /*height: 40%;*/
+        }
+
+        .right{
+            height: 100px;
+            width: 100px;
+        }
+
+        .left{
+            width: 200px;
+        }
+
+
+    </style>
+</head>
+
+
+<body>
+
+<div class="box">
+    <div class="left border">
+
+
+        <div class="border child">One</div>
+
+        <div class="border child">Three
+            <p><br>has
+                <br>extra
+                <br>text</p>
+            <button>click</button>
+        </div>
+    </div>
+    <div class="border child right">Two</div>
+
+</div>
+</body>
+</html>
